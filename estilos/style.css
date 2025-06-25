@@ -10,7 +10,6 @@
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: black;
 }
 
 body {
@@ -43,4 +42,22 @@ main {
     left: 7%;
     height: 478px;
     width: 269px;
+}
+
+#redes-sociais {
+    text-align: right; /* Colocando os botões na direita */
+}
+
+#redes-sociais > a > img {
+    width: 50px; /* Diminuindo o tamanho */
+    margin: 10px;
+    border-radius: 50%; /* Formando o círculo */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+#redes-sociais > a > img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.612);
+    transform: translate(-3px, -3px); /* Valores negativos para ir para a esquerda e para cima */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    transition: transform 0.3s, border 1s; /* Suavizando / Falando em quanto tempo a borda aparece */
 }
