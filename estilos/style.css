@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+body {
+    background: url(/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat top center; /* Centralizando */
+    background-size: cover; /* Cobre a tela toda */
+    background-attachment: fixed;
+}
+
+main {
+    height: 100vh;
+    position: relative;
+}
+
+#telefone {
+    height: 625px;
+    width: 310px;
+    background: url(/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+
+    position: absolute; /* Consigo posicionar para centralizar */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Corrigindo a centralização "errada" */
+}
