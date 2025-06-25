@@ -36,3 +36,11 @@ main {
     left: 50%;
     transform: translate(-50%, -50%); /* Corrigindo a centralização "errada" */
 }
+
+#tela {
+    position: relative;
+    top: 12%;
+    left: 7%;
+    height: 478px;
+    width: 269px;
+}
